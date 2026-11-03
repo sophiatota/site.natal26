@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgba(247, 245, 240, 0.966);
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.cabecalho {
+    background-color: #081a24;
+    width: px;
+    height: 70px;
+    padding: 20px 0;
+}
+
+
+
+.img-foto.inicial {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
