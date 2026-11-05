@@ -3,26 +3,65 @@
 }
 
 body{
+
     margin: 0;
     background-color: rgba(247, 245, 240, 0.966);
     color: rgb(0, 0, 0);
-    font-family: "Roboto", sans-serif;
-    
+    font-size: 16px;
+    /*se a arial não tiver instalda a outra vai ser,*/
+    /*line-height: 9.5;*/
+    background-image: url(../img/arvore.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+h1{
+
+}
 
 .cabecalho {
-    background-color: #081a24;
+    background-color: #431010;
     width: px;
     height: 70px;
     padding: 20px 0;
 }
 
-
+.etiqueta{
+    margin-bottom: 60px;
+    text-align: right;
+    font-size: 10px;
+}
 
 .img-foto.inicial {
     width: 20px;
     height: 20px;
     display: block;
+}
+
+.menu-lista{
+    /*zera todas as margin*/
+    margin: 20px 0 0;
+    padding: 0;
+    /*espacamento inteiro*/
+    list-style: none;
+    /*muda as bolinha*/
+    
+}
+.menu-lista li{
+    /*display: block;*/
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 12px;
+    background-color:  #74060687;
+    border-radius: 5px 10px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
 }
 
